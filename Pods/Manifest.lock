@@ -1,0 +1,29 @@
+PODS:
+  - AdvancedPageControl (0.9.0)
+  - Alamofire (5.6.4)
+  - AlamofireImage (4.2.0):
+    - Alamofire (~> 5.4)
+  - UPCarouselFlowLayout (1.1.2)
+
+DEPENDENCIES:
+  - AdvancedPageControl
+  - Alamofire
+  - AlamofireImage
+  - UPCarouselFlowLayout
+
+SPEC REPOS:
+  trunk:
+    - AdvancedPageControl
+    - Alamofire
+    - AlamofireImage
+    - UPCarouselFlowLayout
+
+SPEC CHECKSUMS:
+  AdvancedPageControl: 39e3b32b00b2d324c534f8e17cc6c5be9abe84b7
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  AlamofireImage: 34a2d90b0e5fe6a5605f85ae4b7b01e784c60192
+  UPCarouselFlowLayout: 4c7d2c43a10ebb1597bde502a53699d378341dad
+
+PODFILE CHECKSUM: ab72e3e6c25fedbf4e25e565a3109bf99afa523f
+
+COCOAPODS: 1.14.3
