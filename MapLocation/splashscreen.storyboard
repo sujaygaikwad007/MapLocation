@@ -4,7 +4,6 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,17 +15,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="s3" translatesAutoresizingMaskIntoConstraints="NO" id="kI3-Uv-RRC">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashMap" translatesAutoresizingMaskIntoConstraints="NO" id="maG-pc-pW9">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </imageView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kI3-Uv-RRC" secondAttribute="trailing" id="Cg7-g1-8E4"/>
-                            <constraint firstItem="kI3-Uv-RRC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Xl5-i8-pJ4"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kI3-Uv-RRC" secondAttribute="bottom" id="fID-e5-82o"/>
-                            <constraint firstItem="kI3-Uv-RRC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="r6y-tT-GUw"/>
+                            <constraint firstItem="maG-pc-pW9" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="4FU-5q-TW7"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="maG-pc-pW9" secondAttribute="trailing" id="Uv1-HG-cdU"/>
+                            <constraint firstItem="maG-pc-pW9" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" id="jKt-vR-QFC"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="maG-pc-pW9" secondAttribute="bottom" id="yZU-AR-PIY"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -36,9 +35,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="s3" width="4024" height="5030"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
+        <image name="splashMap" width="4024" height="5030"/>
     </resources>
 </document>
